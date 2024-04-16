@@ -6,7 +6,7 @@ pipeline {
       stages {
          stage ('Example') {
            steps {
-               echo "& {params.Greeting} Welcome to Jenkins World!"
+               echo "&{params.Greeting} Welcome to Jenkins World!"
            }
          }
       }
