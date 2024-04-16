@@ -6,7 +6,7 @@ pipieline {
       stages {
          stage ('Example') {
            steps {
-               echo "$ { params.Greeting} Welcome to jenkins World!"
+               echo "& { params.Greeting} Welcome to jenkins World!"
            }
          }
       }
